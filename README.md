@@ -9,7 +9,9 @@
 
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="klear">Klear</h1>
-<p>This is a partial clone of the excellent <a href="https://apps.apple.com/us/app/clear-todos/id493136154" title="Clear Todos">Clear Todos</a> app by <a href="https://realmacsoftware.com" title="Real Mac Software">Real Mac Software</a>, written in Swift</p>
+<p>## Fork von [yorwosP/klear](https://github.com/yorwosP/klear)
+Weiterentwickelt von marukitano 🛠️
+This is a partial clone of the excellent <a href="https://apps.apple.com/us/app/clear-todos/id493136154" title="Clear Todos">Clear Todos</a> app by <a href="https://realmacsoftware.com" title="Real Mac Software">Real Mac Software</a>, written in Swift</p>
 <p>I’ve created this app, as a way to get familiar with the Swift language and especially gesture recognizers, delegates and animation. Since this was done for educational purposes I’ve:</p>
 <ul>
 <li>not used third party libraries</li>
