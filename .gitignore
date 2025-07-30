@@ -1,32 +1,73 @@
+## ========== Build / Bin / Obj ==========
+bin/
+obj/
+out/
 
-## User settings
-xcuserdata/
+## ========== User-spezifisch ==========
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.vsp
+*.ncb
+*.log
+*.tlog
+*.pdb
 
+## ========== Visual Studio ==========
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.cache
+*.dbmdl
+*.db
+*.db-shm
+*.db-wal
+*.vssscc
+*.vsix
+*.code-workspace
 
-## Obj-C/Swift specific
-*.hmap
+## ========== JetBrains Rider ==========
+.idea/
+*.sln.iml
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+## ========== OS-spezifisch ==========
+.DS_Store
+Thumbs.db
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+## ========== SQLite ==========
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+slnx.sqlite
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
+## ========== Copilot/IntelliSense ==========
+CopilotIndices/
+SemanticSymbols.*
 
-.build/
+## ========== Backup & Temp ==========
+*~
+*.tmp
+*.bak
+*.old
 
+## ========== Rider / ReSharper ==========
+_ReSharper*/
+*.DotSettings.user
 
+## ========== VS Code (falls du’s mal nutzt) ==========
+.vscode/
+.history/
+
+## ========== Projektbezogen ==========
+*.wsuo
+.vsconfig
+*.vsixmanifest
+
+## ========== JSON Settings, die nicht ins Repo gehören ==========
+DocumentLayout.json
